@@ -1,3 +1,7 @@
+import numpy as np
+import math
+from ast import literal_eval
+
 class NeuralNet:
     def __init__(self, shape, alpha=1.0, weights=None, const=True):
         """
